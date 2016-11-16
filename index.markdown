@@ -1,5 +1,5 @@
 ---
-title: Diversitechy
+title: Home
 date: 2016-11-15 06:08:00 Z
 ---
 
