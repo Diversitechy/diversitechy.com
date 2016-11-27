@@ -1,6 +1,13 @@
 ---
+
 title: Diversitechy
+name: Diversitechy
+description: Diversitechy community website.
+
+paginate: 10
+
 timezone: UTC
+
 collections:
   posts:
     title: Posts

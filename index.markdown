@@ -1,5 +1,6 @@
 ---
-title: Home
+layout: landing
+title: Diversitechy
 date: 2016-11-15 06:08:00 Z
 ---
 
