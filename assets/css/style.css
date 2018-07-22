@@ -70,6 +70,15 @@ h3 {
   box-shadow: 15px 15px 0px #fff;
 }
 
+.page-header {
+  border-bottom: none;
+}
+.page-header a {
+  outline: none;
+  color: white;
+  text-decoration: none;
+}
+
 /* Sponsors */
 
 .partner, .diamond, .gold, .food {
