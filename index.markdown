@@ -25,19 +25,4 @@ date: 2018-07-22 14:08:00 Z
       </div>
     </div>
   </div>
-
-  <div class="row social">
-    <div class="col-md-offset-2 col-md-2">
-      <a href="http://instagram.com/diversitechy"><img src="/assets/instagram.png"></a>
-    </div>
-    <div class="col-md-2">
-      <a href="http://twitter.com/diversitechy"><img src="/assets/twitter.png"></a>
-    </div>
-    <div class="col-md-2">
-      <a href="http://facebook.com/diversitechy"><img src="/assets/facebook.png"></a>
-    </div>
-    <div class="col-md-2">
-      <a href="http://medium.com/diversitechy"><img src="/assets/medium.png"></a>
-    </div>
-  </div>
 </div>

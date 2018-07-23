@@ -12,4 +12,12 @@ date: 2018-07-22 15:18:00 Z
       </div>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div>
+        <a href="./technologtea" class="btn btn-default btn-lg">Technologtea</a>
+      </div>
+    </div>
+  </div>
 </div>
