@@ -4,26 +4,19 @@ layout: home
 date: 2018-07-22 15:00:00 Z
 ---
 
-<div class="sponsors">
-  <div class="row">
-    <div class="col-md-12">
-    </div>
-  </div>
+<div class="sponsors container-fluid">
   <div class="partner">
+    <h3>Our Partner Sponsor</h3>
     <div class="row">
-      <div class="col-md-12">
-        <h3>Our Partner Sponsor</h3>
-      </div>
       <div class="col-md-12">
         <img src="{{ "/assets/sponsor-logos/stembolt.svg" | absolute_url }}" alt="Stembolt">
       </div>
     </div>
   </div>
+
   <div class="diamond">
+    <h3>Our Diamond Sponsors</h3>
     <div class="row">
-      <div class="col-md-12">
-        <h3>Our Diamond Sponsors</h3>
-      </div>
       <div class="col-md-4">
         <img src="{{ "/assets/sponsor-logos/checkfront.png" | absolute_url }}" alt="Checkfront">
       </div>
@@ -35,11 +28,10 @@ date: 2018-07-22 15:00:00 Z
       </div>
     </div>
   </div>
+
   <div class="gold">
+    <h3>Our Gold Sponsors</h3>
     <div class="row">
-      <div class="col-md-12">
-        <h3>Our Gold Sponsors</h3>
-      </div>
       <div class="col-md-4">
         <img src="{{ "/assets/sponsor-logos/emplomacy.png" | absolute_url }}" alt="Emplomacy">
       </div>
@@ -59,11 +51,10 @@ date: 2018-07-22 15:00:00 Z
       </div>
     </div>
   </div>
+
   <div class="food">
+    <h3>Our Food Sponsors</h3>
     <div class="row">
-      <div class="col-md-12">
-        <h3>Our Food Sponsors</h3>
-      </div>
       <div class="col-md-6">
         <img src="{{ "/assets/sponsor-logos/picnic.jpg" | absolute_url }}" alt="Picnic">
       </div>
@@ -72,4 +63,5 @@ date: 2018-07-22 15:00:00 Z
       </div>
     </div>
   </div>
+
 </div>

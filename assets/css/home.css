@@ -80,9 +80,10 @@ h3 {
 }
 
 /* Sponsors */
+/* We used to call platinum sponsors "partner" */
 
-.partner, .diamond, .gold, .food {
-  background: rgba(225, 225, 225, .5);
+.partner, .platinum, .diamond, .gold, .food {
+  background: rgba(225, 225, 225, .9);
   margin: 15px;
   padding: 10px;
 }
@@ -95,29 +96,27 @@ h3 {
   margin: 0;
 }
 
-.partner img {
-  height: 160px;
-  width: auto;
+.partner img, .platinum img {
+  max-height: 100%;
+  width: 100%;
 }
 
 .diamond img {
-  height: 90px;
-  width: auto;
+  max-height: 100%;
+  width: 100%;
 }
 
 .gold img {
-  height: 80px;
-  width: auto;
+  max-height: 100%;
+  width: 100%;
 }
 
 .gold-square img {
   width: 110px;
-  height: auto;
 }
 
 .food img {
   height: 150px;
-  width: auto;
 }
 
 a > img {
@@ -138,7 +137,7 @@ table, .table {
 }
 
 th {
-  background: purple; 
+  background: purple;
   color: white;
 }
 
