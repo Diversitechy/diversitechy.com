@@ -4,13 +4,13 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>{{ page.title }}</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-  <link href="{{ "/assets/css/home.css" | absolute_url }}" rel="stylesheet">
+  <link href="{{ "/assets/css/home.css" | relative_url }}" rel="stylesheet">
 
 </head>
 
 <body>
   <div class="page-header">
-    <h1><a href="{{ "/" | absolute_url }}">Diversitechy</a></h1>
+    <h1><a href="{{ "/" | relative_url }}">Diversitechy</a></h1>
   </div>
 
  {{ content }}
@@ -18,16 +18,16 @@
   <div class="container-fluid">
     <div class="row social">
       <div class="col-md-offset-2 col-md-2">
-        <a href="http://instagram.com/diversitechy"><img src="{{ "/assets/instagram.png" | absolute_url }}" alt="Instgram logo"></a>
+        <a href="http://instagram.com/diversitechy"><img src="{{ "/assets/instagram.png" | relative_url }}" alt="Instgram logo"></a>
       </div>
       <div class="col-md-2">
-        <a href="http://twitter.com/diversitechy"><img src="{{ "/assets/twitter.png" | absolute_url }}" alt="Twitter logo"></a>
+        <a href="http://twitter.com/diversitechy"><img src="{{ "/assets/twitter.png" | relative_url }}" alt="Twitter logo"></a>
       </div>
       <div class="col-md-2">
-        <a href="http://facebook.com/diversitechy"><img src="{{ "/assets/facebook.png" | absolute_url }}" alt="Facebook logo"></a>
+        <a href="http://facebook.com/diversitechy"><img src="{{ "/assets/facebook.png" | relative_url }}" alt="Facebook logo"></a>
       </div>
       <div class="col-md-2">
-        <a href="http://medium.com/diversitechy"><img src="{{ "/assets/medium.png" | absolute_url }}" alt="Medium logo"></a>
+        <a href="http://medium.com/diversitechy"><img src="{{ "/assets/medium.png" | relative_url }}" alt="Medium logo"></a>
       </div>
     </div>
   </div>

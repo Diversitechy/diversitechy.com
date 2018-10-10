@@ -13,19 +13,19 @@ redirect_from: /career-fair-2018
         <div class="col-md-4">
           <h3><a href="https://www.plurilock.com">Plurilock</a> (<a href="https://www.plurilock.com/company/careers/">Careers</a>)</h3>
           <a href="https://www.plurilock.com">
-            <img src="{{ "/assets/sponsor-logos/plurilock.png" | absolute_url }}" alt="Plurilock">
+            <img src="{{ "/assets/sponsor-logos/plurilock.png" | relative_url }}" alt="Plurilock">
           </a>
         </div>
         <div class="col-md-4">
           <h3><a href="https://semaphoresolutions.com">Semaphor</a> (<a href="https://semaphoresolutions.com/careers/">Careers</a>)</h3>
           <a href="https://semaphoresolutions.com">
-            <img src="{{ "/assets/sponsor-logos/semaphor.png" | absolute_url }}" alt="Semaphor">
+            <img src="{{ "/assets/sponsor-logos/semaphor.png" | relative_url }}" alt="Semaphor">
             </a>
         </div>
         <div class="col-md-4">
           <h3><a href="https://www.change.org">Change.org</a> (<a href="https://www.change.org/careers/">Careers</a>)</h3>
           <a href="https://www.change.org">
-            <img src="{{ "/assets/sponsor-logos/change-org.png" | absolute_url }}" alt="Change.org">
+            <img src="{{ "/assets/sponsor-logos/change-org.png" | relative_url }}" alt="Change.org">
           </a>
         </div>
       </div>
@@ -37,13 +37,13 @@ redirect_from: /career-fair-2018
         <div class="col-md-3">
           <h3><a href="https://lighthouselabs.ca">Lighthouse Labs</a> (<a href="https://lighthouselabs.ca/careers-at-lhl">Careers</a>)</h3>
           <a href="https://lighthouselabs.ca">
-            <img src="{{ "/assets/sponsor-logos/lighthouse-labs.png" | absolute_url }}" alt="Lighthouse Labs">
+            <img src="{{ "/assets/sponsor-logos/lighthouse-labs.png" | relative_url }}" alt="Lighthouse Labs">
           </a>
         </div>
         <div class="col-md-3">
           <h3><a href="https://affinity-group.ca">Affinity Staffing</a> (<a href="https://affinity-group.ca/careers/">Careers</a>)</h3>
           <a href="https://affinity-group.ca">
-            <img src="{{ "/assets/sponsor-logos/affinity-staffing.png" | absolute_url }}" alt="Affinity Staffing">
+            <img src="{{ "/assets/sponsor-logos/affinity-staffing.png" | relative_url }}" alt="Affinity Staffing">
           </a>
         </div>
       </div>
