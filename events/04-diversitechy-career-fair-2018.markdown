@@ -6,6 +6,17 @@ redirect_from: /career-fair-2018
 ---
 
 <div class="">
+  <h1>Career Fair 2018</h1>
+
+  <div class="info container-fluid">
+    <div class="info-detail">
+      <p>Date: Saturday November 17th, 2018</p>
+      <p>Time: 9:00am - 16:00pm</p>
+      <p>Location: TBA</p>
+      <p>Agenda: TBA</p>
+    </div>
+  </div>
+
   <div class="sponsors container-fluid">
     <div class="sponsor platinum">
       <h2>Platinum Sponsors</h2>

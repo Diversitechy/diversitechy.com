@@ -137,3 +137,8 @@ td:last-child {
   text-align: left;
 }
 
+.info {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 15px;
+  padding: 10px;
+}
