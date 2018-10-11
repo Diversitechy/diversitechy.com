@@ -1,25 +1,35 @@
 ---
 title: Diversitechy Career Fair 2018
-layout: home
+layout: event
 date: 2018-07-22 15:18:00 Z
 redirect_from: /career-fair-2018
 ---
 
-<div class="">
-  <h1>Career Fair 2018</h1>
+<div class="container-fluid">
+  <h2>Career Fair 2018</h2>
 
-  <div class="info container-fluid">
+  <div class="info row">
     <div class="info-detail">
-      <p>Date: Saturday November 17th, 2018</p>
-      <p>Time: 9:00am - 16:00pm</p>
+      <p>Saturday November 17th, 2018</p>
+      <p>9:00am - 16:00pm</p>
       <p>Location: TBA</p>
-      <p>Agenda: TBA</p>
     </div>
   </div>
 
-  <div class="sponsors container-fluid">
+  <div class="agenda row">
+    <h3>Resources</h3>
+    <p>TBA</p>
+  </div>
+
+  <div class="resources row">
+    <h3>Resources</h3>
+  </div>
+
+  <div class="sponsors row">
+    <h3>Sponsors</h3>
+
     <div class="sponsor platinum">
-      <h2>Platinum Sponsors</h2>
+      <h4>Platinum Sponsors</h4>
       <div class="row">
         <div class="col-md-4">
           <h3><a href="https://www.plurilock.com">Plurilock</a> (<a href="https://www.plurilock.com/company/careers/">Careers</a>)</h3>
@@ -43,7 +53,7 @@ redirect_from: /career-fair-2018
     </div>
 
     <div class="sponsor diamond">
-      <h2>Gold Sponsors</h2>
+      <h4>Gold Sponsors</h4>
       <div class="row">
         <div class="col-md-3">
           <h3><a href="https://lighthouselabs.ca">Lighthouse Labs</a> (<a href="https://lighthouselabs.ca/careers-at-lhl">Careers</a>)</h3>
@@ -61,7 +71,7 @@ redirect_from: /career-fair-2018
     </div>
 
     <div class="sponsor gold">
-      <h2>Silver Sponsors</h2>
+      <h4>Silver Sponsors</h4>
       <div class="row">
       </div>
     </div>

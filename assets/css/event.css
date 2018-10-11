@@ -1,28 +1,9 @@
 body {
-  background-color: #894ec4; 
-  background-size: 100%;
-  text-align: center;
-  font-family: helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  line-height: 1.5em;
-  margin: 0 auto;
-  color: #fff;
-}
-
-ul {
--webkit-margin-before: 0;
--webkit-margin-after: 0;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
--webkit-padding-start: 0px;
-}
-
-ul li {
-  text-decoration: none;
-  list-style: none;
-  margin-bottom: 10px;
+    background-image: url("../background.png");
+    background-size: 100%;
+    text-align: center;
+    font-family: helvetica;
+    margin: 0 auto;
 }
 
 h1 {
@@ -30,36 +11,134 @@ h1 {
   letter-spacing: -1px;
   font-weight: 900;
   color: white;
-  font-size: 120px;
+  font-size: 160px;
   text-shadow: 15px 12px #194570;
   text-align: center;
-  margin-top: 75px;
 }
 
 h2 {
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  font-weight: 900;
+  font-style: italic;
   color: white;
-  font-size: 50px;
-  text-align: center;
-  margin-top: 40px;
+  font-weight: 100;
 }
 
-.header img {
-  height: 140px;
-  margin-top: 25px;
+h3 {
+  color: #194570;
+  text-transform: capitalize;
+  letter-spacing: 2px;
 }
 
-.header h1 {
-  text-shadow: none;
-  font-size: 70px;
-  text-align: left;
-  margin-top: 25px;
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 100px;
+    text-shadow: 7px 8px #194570;
+  }
 }
 
-.contact-email {
+@media (max-width: 800px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+.row {
+  margin: 80px 0;
+}
+
+.btn-lg {
+  background-color: #FFF;
+  border-color: #FFF;
+  border-radius: 0;
+  letter-spacing: 2px;
+  padding: 22px 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+  box-shadow: 15px 15px 0px #194570;
+  outline: 0;
+}
+
+.btn-lg:hover {
+  background: #194570;
+  color: white;
+  border: 1px solid #194570;
+  box-shadow: 15px 15px 0px #fff;
+}
+
+.page-header {
+  border-bottom: none;
+}
+.page-header a {
   outline: none;
   color: white;
   text-decoration: none;
+}
+
+/* Sponsors */
+/* We used to call platinum sponsors "partner" */
+
+.partner, .platinum, .diamond, .gold, .food {
+  background: rgba(225, 225, 225, .9);
+  margin: 15px;
+  padding: 10px;
+}
+
+.sponsors img {
+  padding: 20px;
+}
+
+.sponsors .row {
+  margin: 0;
+}
+
+.partner img, .platinum img {
+  max-height: 100%;
+  width: 100%;
+}
+
+.diamond img {
+  max-height: 100%;
+  width: 100%;
+}
+
+.gold img {
+  max-height: 100%;
+  width: 100%;
+}
+
+.gold-square img {
+  width: 110px;
+}
+
+.food img {
+  height: 150px;
+}
+
+table, .table {
+  background: white;
+  margin: 50px 0;
+}
+
+th {
+  background: purple;
+  color: white;
+}
+
+th:first-child {
+  text-align: center;
+}
+
+td:last-child {
+  text-align: left;
+}
+
+.info {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 15px;
+  padding: 10px;
 }

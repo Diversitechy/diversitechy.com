@@ -1,6 +1,6 @@
 ---
 title: Events
-layout: home
+layout: event
 date: 2018-07-22 15:18:00 Z
 ---
 
