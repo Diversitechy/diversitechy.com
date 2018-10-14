@@ -47,8 +47,12 @@ h3 {
   }
 }
 
-.row {
-  margin: 80px 0;
+.content-header {
+  padding: 5rem;
+}
+.content-body {
+  background-color: white;
+  padding:;
 }
 
 .btn-lg {
@@ -117,24 +121,6 @@ h3 {
 
 .food img {
   height: 150px;
-}
-
-table, .table {
-  background: white;
-  margin: 50px 0;
-}
-
-th {
-  background: purple;
-  color: white;
-}
-
-th:first-child {
-  text-align: center;
-}
-
-td:last-child {
-  text-align: left;
 }
 
 .info {

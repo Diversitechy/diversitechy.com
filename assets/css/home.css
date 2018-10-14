@@ -47,8 +47,12 @@ h3 {
   }
 }
 
-.row {
-  margin: 80px 0;
+.content-header {
+  padding: 5rem;
+}
+.content-body {
+  background-color: white;
+  padding:;
 }
 
 .btn-lg {
@@ -70,14 +74,6 @@ h3 {
   box-shadow: 15px 15px 0px #fff;
 }
 
-.page-header {
-  border-bottom: none;
-}
-.page-header a {
-  outline: none;
-  color: white;
-  text-decoration: none;
-}
 
 /* Sponsors */
 /* We used to call platinum sponsors "partner" */
@@ -119,23 +115,6 @@ h3 {
   height: 150px;
 }
 
-table, .table {
-  background: white;
-  margin: 50px 0;
-}
-
-th {
-  background: purple;
-  color: white;
-}
-
-th:first-child {
-  text-align: center;
-}
-
-td:last-child {
-  text-align: left;
-}
 
 .info {
   background: rgba(255, 255, 255, 0.9);

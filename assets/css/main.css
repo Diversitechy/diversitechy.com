@@ -1,0 +1,8 @@
+.page-header {
+  border-bottom: none;
+}
+.page-header a {
+  outline: none;
+  color: white;
+  text-decoration: none;
+}
