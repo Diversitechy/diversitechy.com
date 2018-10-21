@@ -35,8 +35,9 @@ redirect_from: /career-fair-2018
     <div class="row">
       <div class="col-sm-8 col-sm-push-2">
         <div class="about__content">
-          <h3>About Diversitechy</h3>
-          <h5 class="about__text">Diversitechy is a group of developers, hiring managers, marketers, technical writers, and diversity enthusiasts from the Victoria community. This group evolved from discussions in the YYJ Tech online Slack forum about diversity, and what we can do to improve inclusion and accessibility in tech. We are gaining momentum with the Diversity Hack, making a space for conversation around diversity within the Victoria Tech scene.</h5>
+          <h3>About The Event</h3>
+          <h5 class="about__text">The goal of the event is to provide an opportunity for the employers and potential candidates to meet in an environment that helps the under-represented group make a stronger impression than the current norm. To achieve this, we hope that only participants who believe they are part of an under-represented group would submit their resume at the event, while those who believe they are part of a well-represented group would simply leave a business card or fill out a contact form. This will hopefully encourage employers to look at the under-represented candidates before deciding to move to the well-represented candidate pool.</h5>
+          <h5 class="about__text">The event will include booths for our sponsors to set up and meet with attendees who are looking to connect with their potential employer. There is also a speaking event starting at noon and a discussion event to present and discuss topics related to diversity in tech industry.</h5>
         </div>
       </div>
     </div>
