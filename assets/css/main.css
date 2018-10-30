@@ -461,6 +461,8 @@ template {
   box-sizing: border-box;
 }
 
+
+
 /*-------------------------*/
 /* $Color 
 ---------------------------*/
@@ -479,36 +481,36 @@ template {
 .color-white{color: #fefefe;}
 
 
+
 /*-------------------------*/
 /* $Typography 
 ---------------------------*/
-/* Globel */
+/* Global */
 body,html{
   font-family: 'Helvetica', 'roboto', arial, sans-serif;
 }
 /* heading */
 h1,h2,h3,h4,h5,h6{
+  font-family: 'Helvetica', 'roboto', arial, sans-serif;
   margin: 0;
-  color: #333;
 }
 h1{
+  letter-spacing: 2px;
+  text-transform: uppercase;
   font-size: 80px;
   font-weight: 800;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
 h2{
   font-size: 48px;
   font-weight: 600;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
 h3{
   font-size: 40px;
   font-weight: 600;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
   line-height: 48px;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -516,7 +518,6 @@ h3{
 h4{
   font-size: 24px;
   font-weight: 600;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
   line-height: 32px;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -524,7 +525,6 @@ h4{
 h5{
   font-size: 20px;
   font-weight: 400;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
   line-height: 1;
   margin-top: 24px;
   margin-bottom: 16px;
@@ -532,7 +532,6 @@ h5{
 h6{
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
   line-height: 32px;
   margin-top: 24px;
   margin-bottom: 16px;
@@ -575,6 +574,8 @@ ul{
   padding: 0;
 }
 
+
+
 /*-------------------------*/
 /* $Utility 
 ---------------------------*/
@@ -587,3 +588,206 @@ ul{
     display: none !important;
   }
 }
+
+
+/*-------------------------*/
+/* $Elements
+---------------------------*/
+
+/* icon btn */
+.icon-btn{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 24px;
+    margin-left: 8px;
+}
+.icon-btn .icon{
+    display: block;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+
+.icon-btn .icon:hover{
+    transform: translateY(-20%);
+}
+
+
+/* background 
+---------------------------*/
+body {
+    background-image: url("../background.png");
+    background-size: 100%;
+    text-align: center;
+    font-family: helvetica;
+    margin: 0 auto;
+}
+
+
+/* image
+---------------------*/
+.image{
+    width: 100%;
+    display: block;
+}
+
+
+/* navbar 
+---------------------*/
+.navbar{
+}
+
+.navbar__logo .logoText {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 24px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+@media (max-width: 768px){
+    .navbar__logo .logoText{
+        padding: 12px;
+    }
+}
+
+.navbar--collapse{
+    margin-right: -16px;
+    margin-left: -16px;
+}
+.navbar__social-bar{
+    padding: 24px;
+    float: left;
+}
+@media (max-width: 768px){
+    .navbar__social-bar{
+        padding: 12px;
+    }
+}
+
+.navbar__nav{
+    float: right;
+}
+.navbar__logo {
+    float: left;
+}
+
+.nav__contact {
+    display: inline-block;
+    padding: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #fefefe;
+    letter-spacing: 1px;
+}
+@media (max-width: 768px){
+    .nav__contact{
+        padding: 12px;
+    }
+}
+@media (max-width: 430px){
+    .nav__contact{
+        display: none;
+    }
+}
+
+
+
+/*-------------------------*/
+/* $Subheader
+---------------------------*/
+.subheader{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.subheader-title {
+    font-size: 54px;
+    font-weight: 900;
+    color: #333;
+    background-color: #fefefe;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 768px){
+    .subheader-title {
+        font-size: 30px;
+        padding: 16px 32px;
+    }
+}
+
+.subheader__heading{
+    font-size: 120px;
+    font-weight: 900;
+    color: #fefefe;
+}
+@media (max-width: 768px){
+    .subheader__heading{
+        font-size: 48px;
+    }
+}
+
+.subheader__content {
+    text-align: center;
+}
+
+
+.subheader_eventHackInfo {
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 24px 0px;
+    margin-top: 48px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .subheader_eventHackInfo{
+        font-size: 18px;
+        padding: 16px 0px;
+    }
+    .subheader_eventHackInfo:after {
+        line-height: 50px;
+    }
+}
+
+.subheader__nav .nav-list {
+    margin-top: 180px;
+}
+.subheader__nav .nav-list > li {
+    display: inline-block;
+}
+@media (max-width: 768px){
+    .subheader__nav .nav-list > li {
+    display: block;
+}
+}
+
+.nav-list .list__item{
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 16px 64px;
+    color: #fefefe;
+    border-bottom: solid 3px rgba(255,255,255,.4);
+}
+
+.nav-list .list__item.active {
+    border-bottom: solid 3px #FFE061;
+
+}
+
+@media (max-width: 768px){
+    .nav-list .list__item{
+        border-bottom: none;
+    }
+    .nav-list .list__item.active {
+        border-bottom: none;
+        color: #FFE061;
+    }
+
+}
+

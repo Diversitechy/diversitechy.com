@@ -11,11 +11,10 @@
 </head>
 
 <body>
-  <div class="wrapper">
-  <div class="bg"></div>
-
   <!-- Start header -->
-  {% include banner.html %}
+  <header class="header sticky-top bg-color-white">
+    {% include banner.html %}
+  </header>
   <!-- End header -->
 
   <!-- Start main -->
@@ -23,11 +22,5 @@
     {{ content }}
   </section>
   <!-- End main -->
-
-  <!-- Start footer -->
-  {% include footer.html %}
-  <!-- End footer -->
-
-  </div>
 </body>
 </html>
