@@ -148,7 +148,6 @@ redirect_from: /career-fair-2018
       </div>
     </div>
   </div>
-
 </div>
 <!-- End Resources -->
 
@@ -234,8 +233,22 @@ redirect_from: /career-fair-2018
           </div>
         </div>
       </div>
-
     </div>
   </div>
+</div>
 
+<div  class="bg-color-white py-4">
+  <div class="container">
+    <h3 class="u-text-center">Media</h3>
+    <div class="row py-4">
+      <div class="col-md-6">
+        <i class="far fa-file-alt"></i>
+        <a href="{{ "/assets/events/03-diversitechy-career-fair-2018/DCF2018-Poster.pdf" | relative_url }}">Poster</a>
+      </div>
+      <div class="col-md-6">
+        <i class="far fa-file-alt"></i>
+        <a href="{{ "/assets/events/03-diversitechy-career-fair-2018/DCF2018-SponsorsInfo.pdf" | relative_url }}">Sponsor Package</a>
+      </div>
+    </div>
+  </div>
 </div>
