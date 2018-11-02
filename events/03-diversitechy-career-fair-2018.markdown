@@ -42,8 +42,9 @@ redirect_from: /career-fair-2018
       <div class="col-sm-8 col-sm-push-2">
         <div class="about__content">
           <h3>About The Event</h3>
-          <h5 class="about__text">The goal of the event is to provide an opportunity for the employers and potential candidates to meet in an environment that helps the under-represented group make a stronger impression than the current norm. To achieve this, we hope that only participants who believe they are part of an under-represented group would submit their resume at the event, while those who believe they are part of a well-represented group would simply leave a business card or fill out a contact form. This will hopefully encourage employers to look at the under-represented candidates before deciding to move to the well-represented candidate pool.</h5>
-          <h5 class="about__text">The event will include booths for our sponsors to set up and meet with attendees who are looking to connect with their potential employer. There is also a speaking event starting at noon and a discussion event to present and discuss topics related to diversity in tech industry.</h5>
+          <p class="about__text">The goal of the event is to provide an opportunity for the employers and potential candidates to meet in an environment that helps the under-represented group make a stronger impression than the current norm. To achieve this, we hope that only participants who believe they are part of an under-represented group would submit their resume at the event, while those who believe they are part of a well-represented group would simply leave a business card or fill out a contact form. This will hopefully encourage employers to look at the under-represented candidates before deciding to move to the well-represented candidate pool.</p>
+          <p class="about__text">The event will include booths for our sponsors to set up and meet with attendees who are looking to connect with their potential employer. There is also a speaking event starting at noon and a discussion event to present and discuss topics related to diversity in tech industry.</p>
+          <p class="about__text">Please also checkout our <a href="{{ "/coc" | relative_url }}">Code of Conduct</a> for the event.</p>
         </div>
       </div>
     </div>
