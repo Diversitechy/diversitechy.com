@@ -192,7 +192,7 @@ redirect_from: /career-fair-2018
         <h4 class="sponsor-subtitle">Our Gold Sponsors</h4>
       </div>
       <div class="row sponsor-row">
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <div class="logo-card">
             <div class="sponsor-links">
               <a href="https://lighthouselabs.ca">Lighthouse Labs</a> (<a href="https://lighthouselabs.ca/careers-at-lhl">Careers</a>)
@@ -200,7 +200,7 @@ redirect_from: /career-fair-2018
             <img class="logo-image" src="{{ "/assets/sponsor-logos/lighthouse-labs.png" | relative_url }}" alt="Lighthouse Labs logo">
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <div class="logo-card">
             <div class="sponsor-links">
               <a href="https://affinity-group.ca">Affinity Staffing</a> (<a href="https://affinity-group.ca/careers/">Careers</a>)
@@ -214,22 +214,15 @@ redirect_from: /career-fair-2018
         <h4 class="sponsor-subtitle">Our Silver Sponsors</h4>
       </div>
       <div class="row sponsor-row">
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <div class="logo-card">
             <div class="sponsor-links">
-              TBA
+              <a href="https://www.pixelunion.net/">Pixel Union</a> (<a href="https://pixel-union.workable.com/">Careers</a>)
             </div>
+            <img class="logo-image" src="{{ "/assets/sponsor-logos/pixel-union.png" | relative_url }}" alt="Pixel Union logo">
           </div>
         </div>
-        <div class="col-sm-2">
-          <div class="logo-card">
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="logo-card">
-          </div>
-        </div>
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <div class="logo-card">
           </div>
         </div>
@@ -242,11 +235,11 @@ redirect_from: /career-fair-2018
   <div class="container">
     <h3 class="u-text-center">Media</h3>
     <div class="row py-4">
-      <div class="col-md-6">
+      <div class="col-md-6 text-center">
         <i class="far fa-file-alt"></i>
         <a href="{{ "/assets/events/03-diversitechy-career-fair-2018/DCF2018-Poster.pdf" | relative_url }}">Poster</a>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 text-center">
         <i class="far fa-file-alt"></i>
         <a href="{{ "/assets/events/03-diversitechy-career-fair-2018/DCF2018-SponsorsInfo.pdf" | relative_url }}">Sponsor Package</a>
       </div>
