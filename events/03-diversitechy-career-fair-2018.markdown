@@ -208,6 +208,14 @@ redirect_from: /career-fair-2018
             <img class="logo-image" src="{{ "/assets/sponsor-logos/affinity-staffing.png" | relative_url }}" alt="Affinity Staffing logo">
           </div>
         </div>
+        <div class="col-sm-3">
+          <div class="logo-card">
+            <div class="sponsor-links">
+              <a href="https://www.tutela.com/">Tutela Technologies</a> (<a href="https://www.tutela.com/careers">Careers</a>)
+            </div>
+            <img class="logo-image" src="{{ "/assets/sponsor-logos/tutela.svg" | relative_url }}" alt="Tutela Technologies logo">
+          </div>
+        </div>
       </div>
 
       <div class="row sponsor-row">
