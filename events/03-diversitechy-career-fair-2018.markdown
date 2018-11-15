@@ -17,7 +17,7 @@ redirect_from: /career-fair-2018
             <div class="mb-4">Saturday NOV 17th, 2018.</div>
             <div class="mb-4">10am - 4pm.</div>
             <div class="mb-4">Parkside Hotel.</div>
-            <div class="mb-4"><a href="https://goo.gl/forms/cNefSko83ldpWA8r2" class="btn btn-primary">RSVP</a></div>
+            <!-- <div class="mb-4"><a href="https://goo.gl/forms/cNefSko83ldpWA8r2" class="btn btn-primary">RSVP</a></div> -->
         </div>
         <div class="col-md-6">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.071892598127!2d-123.36514290719249!3d48.420464755160616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f74919ef647ad%3A0x26fdd3d930907742!2sThe+Parkside+Hotel+%26+Spa!5e0!3m2!1sen!2sca!4v1540154749535" width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen></iframe>
