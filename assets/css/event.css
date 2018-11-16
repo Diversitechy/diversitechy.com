@@ -96,7 +96,7 @@
 .agenda{
     padding-top: 120px;
     padding-bottom: 120px;
-    height: 19rem;
+    height: 29rem;
     background-image: url("../background.png");
     background-size: cover;
     background-position: center;
@@ -199,6 +199,20 @@
     margin: 0;
     margin-top: 16px;
 }
+
+
+
+
+/*-------------------------*/
+/* $Speaking
+---------------------------*/
+
+.speaking {
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+
+
 
 /*-------------------------*/
 /* $Resources
