@@ -10,9 +10,6 @@ date: 2018-07-22 14:08:00 Z
   </div>
 
   <div class="row subheader-content">
-    <div class="col-md-8">
-      <a href="./events/03-diversitechy-career-fair-2018" class="btn btn-default btn-lg">Upcoming Event: Diversitechy Career Fair</a>
-    </div>
     <div class="col-md-4">
       <a href="{{ "/events" | relative_url }}" class="btn btn-default btn-lg">See Past Events</a>
     </div>
